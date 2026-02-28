@@ -6,6 +6,8 @@ import Image from "next/image";
 import navItems from "@/constants/navLinks";
 import ResourcesMega from "./megaMenu/ResourcesMega";
 import MedicalTopicsMega from "./megaMenu/MedicalTopicsMega";
+import CommentaryMega from "./megaMenu/CommentaryMega";
+import ProceduresMega from "./megaMenu/ProceduresMega";
 
 
 export default function Navbar() {
@@ -252,6 +254,22 @@ export default function Navbar() {
                             {/* Resources Mega Menu */}
                             {link.name === "RESOURCES" && (
                               <ResourcesMega
+                                data={link.megaMenu}
+                                onItemClick={(item) =>
+                                  handleMegaMenuItemClick(link.name, item)
+                                }
+                              />
+                            )}
+                            {link.name === "COMMENTARY" && (
+                              <CommentaryMega
+                                data={link.megaMenu}
+                                onItemClick={(item) =>
+                                  handleMegaMenuItemClick(link.name, item)
+                                }
+                              />
+                            )}
+                            {link.name === "PROCEDURES" && (
+                              <ProceduresMega
                                 data={link.megaMenu}
                                 onItemClick={(item) =>
                                   handleMegaMenuItemClick(link.name, item)

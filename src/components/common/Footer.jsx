@@ -1,7 +1,7 @@
 "use client"
 
 import { Facebook, Twitter } from "lucide-react";
-import  Image  from 'next/image';
+import Image from 'next/image';
 
 export default function Footer() {
     return (
@@ -13,10 +13,17 @@ export default function Footer() {
 
                     {/* Logo */}
                     <div className="flex items-center gap-2 min-w-[120px]">
-                        <div className="w-10 h-10 bg-[#0f7c82] rounded-full"></div>
-                        <span className="text-2xl font-semibold text-[#003b4a]">
-                            MSD
-                        </span>
+
+                        <div className="relative w-25 h-10">
+                            <Image
+                                src="/msd_foot_logo.png"   // 👉 public folder e thakbe
+                                alt="MSD Logo"
+                                width={120}
+                                height={120}
+                                className="object-contain rounded-full"
+                            />
+                        </div>
+
                     </div>
 
                     {/* Text */}
