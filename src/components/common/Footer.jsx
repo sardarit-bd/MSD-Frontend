@@ -5,7 +5,7 @@ import  Image  from 'next/image';
 
 export default function Footer() {
     return (
-        <footer className="bg-[#e9ecef] text-[#003b4a] mt-16">
+        <footer className="bg-[#e9ecef] text-[#003b4a]">
 
             {/* Top Info Section */}
             <div className="max-w-7xl mx-auto px-4 py-6 border-b border-gray-300">
@@ -72,7 +72,7 @@ export default function Footer() {
                         <Image
                             src="/images/f-logo.png"
                             alt="MSD Logo"
-                            width={90}
+                            width={70}
                             height={40}
                             priority
                         />
