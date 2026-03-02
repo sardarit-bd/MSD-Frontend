@@ -10,7 +10,7 @@ export default function EditNodePage() {
   const { id } = useParams();
   const router = useRouter();
   const { loadNode, updateNode, currentNode, loading } = useNodes();
-  
+
   const [formData, setFormData] = useState({
     title: "",
     slug: "",
@@ -55,7 +55,7 @@ export default function EditNodePage() {
     e.preventDefault();
     setSaving(true);
     setError("");
-    
+
     try {
       await updateNode(id, formData);
       router.push("/dashboard/admin/nodes");
@@ -83,16 +83,16 @@ export default function EditNodePage() {
             href="/dashboard/admin/nodes"
             className="p-2 hover:bg-gray-100 rounded-lg"
           >
-            <ArrowLeft className="h-5 w-5" />
+            <ArrowLeft className="h-5 w-5 text-gray-700" />
           </Link>
-          <h1 className="text-2xl font-semibold text-gray-900">Edit Content</h1>
+          <h1 className="text-2xl font-semibold text-black">Edit Content</h1>
         </div>
         <button
           onClick={handleSubmit}
           disabled={saving}
           className="flex items-center space-x-2 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 disabled:bg-blue-300"
         >
-          <Save className="h-4 w-4" />
+          <Save className="h-4 w-4 text-white" />
           <span>{saving ? "Saving..." : "Save Changes"}</span>
         </button>
       </div>
@@ -106,25 +106,37 @@ export default function EditNodePage() {
       {/* Edit Form */}
       <form onSubmit={handleSubmit} className="space-y-6">
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h2 className="text-lg font-semibold mb-4">Basic Information</h2>
-          
+          <h2 className="text-lg font-semibold text-black mb-4">Basic Information</h2>
+
           <div className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-black mb-1">
                 Title
               </label>
               <input
                 type="text"
                 name="title"
                 value={formData.title}
-                onChange={handleChange}
+                onChange={(e) => {
+                  const value = e.target.value;
+                  const generatedSlug = value
+                    .toLowerCase()
+                    .replace(/[^a-z0-9]+/g, "-")
+                    .replace(/^-|-$/g, "");
+
+                  setFormData(prev => ({
+                    ...prev,
+                    title: value,
+                    slug: generatedSlug
+                  }));
+                }}
                 required
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-black mb-1">
                 Slug
               </label>
               <input
@@ -133,46 +145,46 @@ export default function EditNodePage() {
                 value={formData.slug}
                 onChange={handleChange}
                 required
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
             <div className="grid grid-cols-2 gap-4">
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label className="block text-sm font-medium text-black mb-1">
                   Type
                 </label>
                 <select
                   name="type"
                   value={formData.type}
                   onChange={handleChange}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="section">Section</option>
-                  <option value="group">Group</option>
-                  <option value="page">Page</option>
-                  <option value="article">Article</option>
+                  <option value="section" className="text-black">Section</option>
+                  <option value="group" className="text-black">Group</option>
+                  <option value="page" className="text-black">Page</option>
+                  <option value="article" className="text-black">Article</option>
                 </select>
               </div>
 
               <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">
+                <label className="block text-sm font-medium text-black mb-1">
                   Status
                 </label>
                 <select
                   name="status"
                   value={formData.status}
                   onChange={handleChange}
-                  className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
                 >
-                  <option value="draft">Draft</option>
-                  <option value="published">Published</option>
+                  <option value="draft" className="text-black">Draft</option>
+                  <option value="published" className="text-black">Published</option>
                 </select>
               </div>
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-black mb-1">
                 Order
               </label>
               <input
@@ -181,7 +193,7 @@ export default function EditNodePage() {
                 value={formData.order}
                 onChange={handleChange}
                 min="0"
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
           </div>
@@ -189,10 +201,10 @@ export default function EditNodePage() {
 
         {/* Content */}
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h2 className="text-lg font-semibold mb-4">Content</h2>
-          
+          <h2 className="text-lg font-semibold text-black mb-4">Content</h2>
+
           <div>
-            <label className="block text-sm font-medium text-gray-700 mb-1">
+            <label className="block text-sm font-medium text-black mb-1">
               HTML Content
             </label>
             <textarea
@@ -200,7 +212,7 @@ export default function EditNodePage() {
               value={formData.contentHtml}
               onChange={handleChange}
               rows="15"
-              className="w-full border border-gray-300 rounded-lg px-3 py-2 font-mono text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+              className="w-full border border-gray-300 rounded-lg px-3 py-2 font-mono text-sm text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
               placeholder="<h1>Your content here...</h1>"
             />
           </div>
@@ -208,11 +220,11 @@ export default function EditNodePage() {
 
         {/* SEO */}
         <div className="bg-white rounded-lg shadow-md p-6">
-          <h2 className="text-lg font-semibold mb-4">SEO Settings</h2>
-          
+          <h2 className="text-lg font-semibold text-black mb-4">SEO Settings</h2>
+
           <div className="space-y-4">
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-black mb-1">
                 Meta Title
               </label>
               <input
@@ -220,12 +232,12 @@ export default function EditNodePage() {
                 name="metaTitle"
                 value={formData.metaTitle}
                 onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
 
             <div>
-              <label className="block text-sm font-medium text-gray-700 mb-1">
+              <label className="block text-sm font-medium text-black mb-1">
                 Meta Description
               </label>
               <textarea
@@ -233,7 +245,7 @@ export default function EditNodePage() {
                 value={formData.metaDescription}
                 onChange={handleChange}
                 rows="3"
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
             </div>
           </div>
