@@ -8,14 +8,12 @@ export default function KnowledgeSection() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState({ title: "", message: "" });
 
-  // মডাল ওপেন ফাংশন
   const openModal = (title, message = "We're working hard to bring you this feature. Stay tuned for updates!") => {
     setModalContent({ title, message });
     setIsModalOpen(true);
     document.body.style.overflow = 'hidden';
   };
 
-  // মডাল ক্লোজ ফাংশন
   const closeModal = () => {
     setIsModalOpen(false);
     setModalContent({ title: "", message: "" });
@@ -85,7 +83,7 @@ export default function KnowledgeSection() {
                 {/* Image Section */}
                 <div className="relative h-[200px] overflow-hidden">
                   <Image
-                    src="/eye-model.jpg"   // 👉 image public folder e rakhba
+                    src="/eye-model.jpg"
                     alt="Eye 3D Model"
                     fill
                     className="object-cover group-hover:scale-105 transition duration-500"
