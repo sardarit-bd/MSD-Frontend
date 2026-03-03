@@ -243,12 +243,7 @@ export default function Navbar() {
                           <div className="px-6 py-6">
                             {/* Medical Topics Mega Menu */}
                             {link.name === "MEDICAL TOPICS" && (
-                              <MedicalTopicsMega
-                                data={link.megaMenu}
-                                onItemClick={(item) =>
-                                  handleMegaMenuItemClick(link.name, item)
-                                }
-                              />
+                              <MedicalTopicsMega data={link.megaMenu} />
                             )}
 
                             {/* Resources Mega Menu */}
