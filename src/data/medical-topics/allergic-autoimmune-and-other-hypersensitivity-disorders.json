@@ -1,0 +1,199 @@
+{
+  "title": "Allergic, Autoimmune, and Other Hypersensitivity Disorders",
+  "items": [
+    {
+      "title": "Overview of Allergic and Atopic Disorders",
+      "children": [
+        {
+          "title": "Classification of Hypersensitivity Reactions",
+          "children": [
+            { "title": "Type I hypersensitivity reactions" },
+            { "title": "Type II hypersensitivity reactions" },
+            { "title": "Type III hypersensitivity reactions" },
+            { "title": "Type IV hypersensitivity reactions" }
+          ]
+        },
+        {
+          "title": "Etiology",
+          "children": [
+            { "title": "Allergens" }
+          ]
+        },
+        { "title": "Pathophysiology" },
+        { "title": "Symptoms and Signs" },
+        {
+          "title": "Diagnosis",
+          "children": [
+            { "title": "Nonselective tests" },
+            { "title": "Specific tests" },
+            { "title": "Diagnosis reference" }
+          ]
+        },
+        {
+          "title": "Treatment",
+          "children": [
+            { "title": "Emergency treatment" },
+            { "title": "Environmental control" },
+            { "title": "Antibiotics" },
+            { "title": "Mast cell inhibitors" },
+            { "title": "Anti-inflammatory medications" },
+            { "title": "Other medications" },
+            { "title": "Immunotherapy" },
+            { "title": "Allergy treatment during pregnancy and breastfeeding" },
+            { "title": "Treatment references" }
+          ]
+        },
+        { "title": "Prevention" },
+        { "title": "Key Points" },
+        { "title": "More information" }
+      ]
+    },
+    {
+      "title": "Allergic Rhinitis",
+      "children": [
+        { "title": "Symptoms and Signs" },
+        { "title": "Diagnosis" },
+        { "title": "Diagnosis reference" },
+        { "title": "Treatment" },
+        {
+          "title": "Prevention",
+          "children": [
+            { "title": "Avoidance of triggers" },
+            { "title": "Desensitization" }
+          ]
+        },
+        { "title": "Key Points" }
+      ]
+    },
+    {
+      "title": "Anaphylaxis",
+      "children": [
+        { "title": "General reference" },
+        { "title": "Etiology" },
+        { "title": "Pathophysiology" },
+        { "title": "Anaphylactoid reactions" },
+        { "title": "Symptoms and Signs" },
+        { "title": "Diagnosis" },
+        {
+          "title": "Treatment",
+          "children": [
+            { "title": "Eosinophilia" },
+            { "title": "Other treatments" },
+            { "title": "Treatment references" }
+          ]
+        },
+        { "title": "Prevention" },
+        { "title": "Key Points" }
+      ]
+    },
+    {
+      "title": "Angioedema",
+      "children": [
+        { "title": "Acute angioedema" },
+        { "title": "Chronic angioedema" },
+        { "title": "Hereditary and acquired angioedema" },
+        { "title": "References" },
+        { "title": "Symptoms and Signs" },
+        { "title": "Diagnosis" },
+        { "title": "Treatment" },
+        { "title": "Key Points" }
+      ]
+    },
+    {
+      "title": "Hereditary and Acquired C1 Inhibitor Deficiency or Dysfunction",
+      "children": [
+        { "title": "Hereditary angioedema" },
+        { "title": "Acquired C1 Inhibitor deficiency" },
+        { "title": "Triggers" },
+        { "title": "General reference" },
+        { "title": "Symptoms and Signs" },
+        { "title": "Diagnosis" },
+        { "title": "Treatment" },
+        {
+          "title": "Prevention",
+          "children": [
+            { "title": "Long-term prophylaxis" },
+            { "title": "Short-term prophylaxis" }
+          ]
+        },
+        { "title": "Key Points" }
+      ]
+    },
+    {
+      "title": "Autoimmune Disorders",
+      "children": [
+        { "title": "Mechanisms" },
+        { "title": "Genetic factors" },
+        { "title": "Defense mechanisms" },
+        { "title": "Reference" }
+      ]
+    },
+    {
+      "title": "Drug Hypersensitivity",
+      "children": [
+        { "title": "Pathophysiology" },
+        { "title": "Symptoms and Signs" },
+        {
+          "title": "Diagnosis",
+          "children": [
+            { "title": "Skin testing" },
+            { "title": "Other testing" }
+          ]
+        },
+        { "title": "Treatment" },
+        { "title": "Prognosis" },
+        { "title": "Key Points" }
+      ]
+    },
+    {
+      "title": "Food Allergy",
+      "children": [
+        { "title": "General reference" },
+        { "title": "Etiology" },
+        { "title": "Oral allergy syndrome (pollen food allergy syndrome)" },
+        { "title": "Eosinophilic gastroenteropathy" },
+        { "title": "Alpha-gal syndrome" },
+        { "title": "Diagnosis" },
+        {
+          "title": "Treatment",
+          "children": [
+            { "title": "Immunotherapy for desensitization" },
+            { "title": "Mucosal and antibodies" }
+          ]
+        },
+        { "title": "Prevention" },
+        { "title": "Key Points" },
+        { "title": "More information" }
+      ]
+    },
+    {
+      "title": "Mastocytosis and Mast Cell Activation Syndrome",
+      "children": [
+        {
+          "title": "Classification",
+          "children": [
+            { "title": "Cutaneous mastocytosis" },
+            { "title": "Systemic mastocytosis" },
+            { "title": "Mast cell activation syndrome" }
+          ]
+        },
+        { "title": "Symptoms and Signs" },
+        {
+          "title": "Diagnosis",
+          "children": [
+            { "title": "Systemic mastocytosis" },
+            { "title": "Mast cell activation syndrome" }
+          ]
+        },
+        {
+          "title": "Treatment",
+          "children": [
+            { "title": "Cutaneous mastocytosis" },
+            { "title": "Systemic mastocytosis" },
+            { "title": "Mast cell activation syndrome" }
+          ]
+        }
+      ]
+    }
+  ]
+}

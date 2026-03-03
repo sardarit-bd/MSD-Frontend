@@ -1,0 +1,194 @@
+{
+  "title": "Immunodeficiency Disorders",
+  "items": [
+    {
+      "title": "Approach to the Patient With Suspected Immunodeficiency",
+      "children": [
+        { "title": "Manifestations of Immunodeficiency" },
+        {
+          "title": "Evaluation",
+          "children": [
+            { "title": "History" },
+            { "title": "Physical examination" },
+            { "title": "Initial testing" },
+            { "title": "Additional testing" },
+            { "title": "Provisional and definitive diagnosis" }
+          ]
+        },
+        {
+          "title": "Treatment",
+          "children": [
+            { "title": "Infection prevention" },
+            { "title": "Management of acute infection" },
+            { "title": "Replacement of missing immune components" },
+            { "title": "Investigational therapy" }
+          ]
+        },
+        { "title": "Prognosis" },
+        { "title": "Key Points" }
+      ]
+    },
+    {
+      "title": "Specific Immunodeficiency Disorders",
+      "children": [
+        {
+          "title": "Ataxia-Telangiectasia",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" },
+            { "title": "Key Points" }
+          ]
+        },
+        {
+          "title": "Chédiak-Higashi Syndrome",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" }
+          ]
+        },
+        {
+          "title": "Chronic Granulomatous Disease (CGD)",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Symptoms and signs reference" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" },
+            { "title": "Key Points" }
+          ]
+        },
+        {
+          "title": "Chronic Mucocutaneous Candidiasis",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Key Points" }
+          ]
+        },
+        {
+          "title": "Common Variable Immunodeficiency (CVID)",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" }
+          ]
+        },
+        {
+          "title": "DiGeorge Syndrome",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" }
+          ]
+        },
+        {
+          "title": "Hyper-IgE Syndrome",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" }
+          ]
+        },
+        {
+          "title": "Hyper-IgM Syndrome",
+          "children": [
+            { "title": "X-linked hyper-IgM syndrome" },
+            { "title": "Autosomal recessive hyper-IgM syndrome" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" }
+          ]
+        },
+        {
+          "title": "Selective IgA Deficiency",
+          "children": [
+            { "title": "General references" },
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Diagnosis reference" },
+            { "title": "Treatment" },
+            { "title": "Prognosis" },
+            { "title": "Key Points" }
+          ]
+        },
+        {
+          "title": "Leukocyte Adhesion Deficiency",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" }
+          ]
+        },
+        {
+          "title": "Selective Antibody Deficiency With Normal Immunoglobulins (SADNI)",
+          "children": [
+            { "title": "General reference" },
+            { "title": "Diagnosis" },
+            { "title": "Diagnosis reference" },
+            { "title": "Treatment" }
+          ]
+        },
+        {
+          "title": "Severe Combined Immunodeficiency (SCID)",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Diagnosis reference" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" },
+            { "title": "Key Points" }
+          ]
+        },
+        { "title": "Transient Hypogammaglobulinemia of Infancy" },
+        {
+          "title": "Wiskott-Aldrich Syndrome",
+          "children": [
+            { "title": "General reference" },
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" }
+          ]
+        },
+        {
+          "title": "X-linked Agammaglobulinemia",
+          "children": [
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" }
+          ]
+        },
+        {
+          "title": "X-linked Lymphoproliferative Syndrome",
+          "children": [
+            { "title": "Symptoms and Signs" },
+            { "title": "Diagnosis" },
+            { "title": "Treatment" },
+            { "title": "Treatment reference" }
+          ]
+        },
+        {
+          "title": "ZAP-70 Deficiency",
+          "children": [
+            { "title": "Diagnosis" },
+            { "title": "Treatment" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Secondary Immunodeficiencies",
+      "children": [
+        { "title": "Geriatrics Essentials" },
+        { "title": "Key Points" }
+      ]
+    }
+  ]
+}

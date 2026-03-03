@@ -1,0 +1,21 @@
+{
+  "title": "Allergy and Immunology",
+  "items": [
+    {
+      "title": "Biology of the Immune System",
+      "slug": "biology-of-the-immune-system"
+    },
+    {
+      "title": "Allergic, Autoimmune, and Other Hypersensitivity Disorders",
+      "slug": "allergic-autoimmune-and-other-hypersensitivity-disorders"
+    },
+    {
+      "title": "Immunodeficiency Disorders",
+      "slug": "immunodeficiency-disorders"
+    },
+    {
+      "title": "Transplantation",
+      "slug": "transplantation"
+    }
+  ]
+}

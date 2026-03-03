@@ -1,0 +1,173 @@
+{
+  "title": "Transplantation",
+  "items": [
+    {
+      "title": "Overview of Transplantation",
+      "children": [
+        { "title": "Graft rejection and graft-vs-host disease" },
+        { "title": "Organ allocation" }
+      ]
+    },
+    {
+      "title": "Pretransplantation Screening",
+      "children": [
+        { "title": "Tissue compatibility" },
+        { "title": "Infection" },
+        { "title": "Recipient contraindications to transplantation" }
+      ]
+    },
+    {
+      "title": "Posttransplantation Immunosuppression",
+      "children": [
+        { "title": "Corticosteroids" },
+        { "title": "Calcineurin inhibitors" },
+        { "title": "Purine metabolism inhibitors" },
+        { "title": "Rapamycin" },
+        { "title": "Immunosuppressive Immunoglobulins" },
+        { "title": "Monoclonal antibodies (MAb)" },
+        { "title": "Other drugs" },
+        { "title": "Irradiation" },
+        { "title": "Future therapies" },
+        { "title": "Infection" },
+        { "title": "Renal disorders" },
+        { "title": "Cancer" },
+        { "title": "Other complications" },
+        { "title": "More information" }
+      ]
+    },
+    {
+      "title": "Types of Transplantation",
+      "children": [
+        {
+          "title": "Hematopoietic Stem Cell Transplantation",
+          "children": [
+            { "title": "Procedure" },
+            { "title": "Conditioning regimens" },
+            { "title": "Posttransplantation" },
+            {
+              "title": "Complications",
+              "children": [
+                { "title": "Early complications" },
+                { "title": "Later complications" }
+              ]
+            },
+            { "title": "Prognosis" }
+          ]
+        },
+        {
+          "title": "Kidney Transplantation",
+          "children": [
+            { "title": "Kidney donors" },
+            { "title": "Procedure" },
+            {
+              "title": "Complications",
+              "children": [
+                { "title": "Rejection" },
+                { "title": "Chronic allograft nephropathy" },
+                { "title": "Cancer" }
+              ]
+            },
+            { "title": "Prognosis" }
+          ]
+        },
+        {
+          "title": "Liver Transplantation",
+          "children": [
+            { "title": "Liver donors" },
+            { "title": "Organ distribution" },
+            { "title": "Procedure" },
+            {
+              "title": "Complications",
+              "children": [
+                { "title": "Rejection" },
+                { "title": "Hepatitis recurrence after transplantation" },
+                { "title": "Other complications" }
+              ]
+            },
+            { "title": "Prognosis" }
+          ]
+        },
+        {
+          "title": "Lung and Heart-Lung Transplantation",
+          "children": [
+            { "title": "Lung donors" },
+            { "title": "Heart donors" },
+            { "title": "Timing of transplantation referral" },
+            {
+              "title": "Procedure",
+              "children": [
+                { "title": "Single lung transplantation" },
+                { "title": "Double lung transplantation" },
+                { "title": "Heart-lung transplantation" }
+              ]
+            },
+            { "title": "Immunosuppression" },
+            {
+              "title": "Complications",
+              "children": [
+                { "title": "Rejection" },
+                { "title": "Surgical complications" }
+              ]
+            },
+            { "title": "Prognosis" }
+          ]
+        },
+        {
+          "title": "Pancreas Transplantation",
+          "children": [
+            { "title": "Pancreas donors" },
+            { "title": "Procedure" },
+            {
+              "title": "Complications",
+              "children": [
+                { "title": "Rejection" },
+                { "title": "Other complications" }
+              ]
+            },
+            { "title": "Prognosis" }
+          ]
+        },
+        {
+          "title": "Pancreatic Islet Cell Transplantation",
+          "children": [
+            { "title": "Procedure" },
+            { "title": "Complications" },
+            { "title": "Prognosis" }
+          ]
+        },
+        {
+          "title": "Small-Bowel Transplantation",
+          "children": [
+            { "title": "Procedure" },
+            {
+              "title": "Complications",
+              "children": [
+                { "title": "Rejection" },
+                { "title": "Other complications" }
+              ]
+            },
+            { "title": "Prognosis" }
+          ]
+        },
+        {
+          "title": "Tissue Transplantation",
+          "children": [
+            { "title": "Composite Transplantation (Hand, Extremity, Face)" },
+            {
+              "title": "Skin grafts",
+              "children": [
+                { "title": "Skin autografts" },
+                { "title": "Skin allografts" }
+              ]
+            },
+            { "title": "Cartilage Transplantation" },
+            { "title": "Bone Transplantation" },
+            { "title": "Adrenal Autografting" },
+            { "title": "Thymus Implants" },
+            { "title": "Uterine transplants" }
+          ]
+        }
+      ]
+    }
+  ]
+}
