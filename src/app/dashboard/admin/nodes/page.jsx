@@ -1,3 +1,4 @@
+// app/dashboard/admin/nodes/page.jsx
 "use client";
 
 import { useState, useEffect } from "react";
@@ -26,10 +27,21 @@ export default function NodesPage() {
   const [showCreateModal, setShowCreateModal] = useState(false);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(null);
   const [childrenMap, setChildrenMap] = useState({});
+  
+  // Context menu states
+  const [contextMenu, setContextMenu] = useState({ visible: false, x: 0, y: 0, node: null });
+  const [createModalConfig, setCreateModalConfig] = useState({ visible: false, parentId: null });
 
   useEffect(() => {
     loadChildren(selectedParent);
   }, [selectedParent, loadChildren]);
+
+  // Close context menu on click outside
+  useEffect(() => {
+    const handleClick = () => setContextMenu({ ...contextMenu, visible: false });
+    document.addEventListener('click', handleClick);
+    return () => document.removeEventListener('click', handleClick);
+  }, [contextMenu]);
 
   const toggleExpand = async (nodeId) => {
     setExpandedNodes(prev => ({
@@ -50,9 +62,59 @@ export default function NodesPage() {
     try {
       await deleteNode(id);
       setShowDeleteConfirm(null);
+      // Refresh current level
+      loadChildren(selectedParent);
     } catch (err) {
       console.error("Delete failed:", err);
     }
+  };
+
+  // Right-click handler
+  const handleContextMenu = (e, node) => {
+    e.preventDefault();
+    setContextMenu({
+      visible: true,
+      x: e.pageX,
+      y: e.pageY,
+      node: node
+    });
+  };
+
+  // Context menu component
+  const renderContextMenu = () => {
+    if (!contextMenu.visible) return null;
+
+    return (
+      <div
+        className="fixed bg-white rounded-lg shadow-xl border border-gray-200 py-1 z-50 min-w-[200px]"
+        style={{ top: contextMenu.y, left: contextMenu.x }}
+      >
+        <button
+          onClick={() => {
+            setCreateModalConfig({ visible: true, parentId: contextMenu.node._id });
+            setContextMenu({ ...contextMenu, visible: false });
+          }}
+          className="w-full text-left px-4 py-2 text-sm text-black hover:bg-gray-100"
+        >
+          ➕ Create Child under "{contextMenu.node.title}"
+        </button>
+        <Link
+          href={`/dashboard/admin/nodes/${contextMenu.node._id}/edit`}
+          className="block w-full text-left px-4 py-2 text-sm text-black hover:bg-gray-100"
+        >
+          ✏️ Edit
+        </Link>
+        <button
+          onClick={() => {
+            setShowDeleteConfirm(contextMenu.node);
+            setContextMenu({ ...contextMenu, visible: false });
+          }}
+          className="w-full text-left px-4 py-2 text-sm text-red-600 hover:bg-red-50"
+        >
+          🗑️ Delete
+        </button>
+      </div>
+    );
   };
 
   const getTypeIcon = (type) => {
@@ -92,7 +154,10 @@ export default function NodesPage() {
       {/* Breadcrumb */}
       <div className="flex items-center space-x-2 text-sm">
         <button
-          onClick={() => setSelectedParent(null)}
+          onClick={() => {
+            setSelectedParent(null);
+            setExpandedNodes({});
+          }}
           className={`px-3 py-1 rounded-full ${!selectedParent
             ? "bg-blue-100 text-blue-700"
             : "text-gray-700 hover:bg-gray-100"
@@ -133,7 +198,11 @@ export default function NodesPage() {
             </div>
           ) : (
             nodes.map((node) => (
-              <div key={node._id} className="px-6 py-4 hover:bg-gray-50">
+              <div
+                key={node._id}
+                className="px-6 py-4 hover:bg-gray-50 cursor-context-menu"
+                onContextMenu={(e) => handleContextMenu(e, node)}
+              >
                 <div className="grid grid-cols-12 gap-4 items-center">
                   <div className="col-span-5">
                     <div className="flex items-center">
@@ -184,15 +253,16 @@ export default function NodesPage() {
                   </div>
                 </div>
 
-                {/* Child nodes would go here when expanded */}
+                {/* Child nodes */}
                 {expandedNodes[node._id] && (
                   <div className="ml-8 mt-4 border-l-2 border-gray-200 pl-4 space-y-2">
                     {childrenMap[node._id] ? (
                       childrenMap[node._id].length > 0 ? (
                         childrenMap[node._id].map((child) => (
-                          <div key={child._id} className="flex items-center space-x-2">
+                          <div key={child._id} className="flex items-center space-x-2 py-1">
                             {getTypeIcon(child.type)}
                             <span className="text-sm text-black">{child.title}</span>
+                            <span className="text-xs text-gray-400">({child.type})</span>
                           </div>
                         ))
                       ) : (
@@ -209,13 +279,20 @@ export default function NodesPage() {
         </div>
       </div>
 
+      {/* Context Menu */}
+      {renderContextMenu()}
+
       {/* Create Modal */}
-      {showCreateModal && (
+      {(showCreateModal || createModalConfig.visible) && (
         <CreateNodeModal
-          parentId={selectedParent}
-          onClose={() => setShowCreateModal(false)}
+          parentId={createModalConfig.parentId || selectedParent}
+          onClose={() => {
+            setShowCreateModal(false);
+            setCreateModalConfig({ visible: false, parentId: null });
+          }}
           onSuccess={() => {
             setShowCreateModal(false);
+            setCreateModalConfig({ visible: false, parentId: null });
             loadChildren(selectedParent);
           }}
         />

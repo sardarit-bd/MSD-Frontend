@@ -6,9 +6,9 @@ import { X } from "lucide-react";
 import { useNodes } from "@/app/dashboard/context/NodeContext";
 
 export default function CreateNodeModal({ parentId = null, onClose, onSuccess }) {
-  const { createNode } = useNodes();
+  const { createNode, nodes } = useNodes();
   const [formData, setFormData] = useState({
-    type: "page",
+    type: "section",
     title: "",
     slug: "",
     status: "draft",
@@ -20,6 +20,8 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
   });
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+
+  const [currentParentId, setCurrentParentId] = useState(parentId);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -35,6 +37,12 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
         title: value,
         slug: prev.slug ? prev.slug : generatedSlug
       }));
+    } else if (name === "parentId") {
+      setCurrentParentId(value === "" ? null : value);
+      setFormData(prev => ({
+        ...prev,
+        parentId: value === "" ? null : value
+      }));
     } else {
       setFormData(prev => ({
         ...prev,
@@ -49,18 +57,9 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
     setError("");
 
     try {
-      await createNode(formData);
-
-      setFormData({
-        type: "page",
-        title: "",
-        slug: "",
-        status: "draft",
-        contentHtml: "",
-        metaTitle: "",
-        metaDescription: "",
-        order: 0,
-        parentId: parentId || null
+      await createNode({
+        ...formData,
+        parentId: currentParentId
       });
 
       onSuccess();
@@ -69,6 +68,34 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
     } finally {
       setLoading(false);
     }
+  };
+
+  const renderParentSelector = () => {
+    const allNodes = nodes || [];
+    
+    return (
+      <div>
+        <label className="block text-sm font-medium text-black mb-1">
+          Parent (Optional)
+        </label>
+        <select
+          name="parentId"
+          value={currentParentId || ""}
+          onChange={handleChange}
+          className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+        >
+          <option value="">Root (No Parent)</option>
+          {allNodes.map(node => (
+            <option key={node._id} value={node._id}>
+              {node.title} ({node.type})
+            </option>
+          ))}
+        </select>
+        <p className="text-xs text-gray-500 mt-1">
+          {currentParentId ? "This item will be created as a child" : "This item will be created at root level"}
+        </p>
+      </div>
+    );
   };
 
   return (
@@ -91,6 +118,8 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
           )}
 
           <form onSubmit={handleSubmit} className="space-y-4">
+            {renderParentSelector()}
+
             <div>
               <label className="block text-sm font-medium text-black mb-1">
                 Type
@@ -102,10 +131,10 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               >
-                <option value="section" className="text-black">Section</option>
-                <option value="group" className="text-black">Group</option>
-                <option value="page" className="text-black">Page</option>
-                <option value="article" className="text-black">Article</option>
+                <option value="section">Section</option>
+                <option value="group">Group</option>
+                <option value="page">Page</option>
+                <option value="article">Article</option>
               </select>
             </div>
 
@@ -120,6 +149,7 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
                 onChange={handleChange}
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
+                placeholder="e.g., Medical Topics"
               />
             </div>
 
@@ -134,36 +164,39 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
                 onChange={handleChange}
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
+                placeholder="medical-topics"
               />
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-black mb-1">
-                Status
-              </label>
-              <select
-                name="status"
-                value={formData.status}
-                onChange={handleChange}
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
-              >
-                <option value="draft" className="text-black">Draft</option>
-                <option value="published" className="text-black">Published</option>
-              </select>
-            </div>
+            <div className="grid grid-cols-2 gap-4">
+              <div>
+                <label className="block text-sm font-medium text-black mb-1">
+                  Status
+                </label>
+                <select
+                  name="status"
+                  value={formData.status}
+                  onChange={handleChange}
+                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+                >
+                  <option value="draft">Draft</option>
+                  <option value="published">Published</option>
+                </select>
+              </div>
 
-            <div>
-              <label className="block text-sm font-medium text-black mb-1">
-                Order
-              </label>
-              <input
-                type="number"
-                name="order"
-                value={formData.order}
-                onChange={handleChange}
-                min="0"
-                className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
-              />
+              <div>
+                <label className="block text-sm font-medium text-black mb-1">
+                  Order
+                </label>
+                <input
+                  type="number"
+                  name="order"
+                  value={formData.order}
+                  onChange={handleChange}
+                  min="0"
+                  className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+                />
+              </div>
             </div>
 
             <div>
@@ -174,8 +207,9 @@ export default function CreateNodeModal({ parentId = null, onClose, onSuccess })
                 name="contentHtml"
                 value={formData.contentHtml}
                 onChange={handleChange}
-                rows="5"
+                rows="4"
                 className="w-full border border-gray-300 rounded-lg px-3 py-2 text-black font-mono text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="<h1>Your content here...</h1>"
               />
             </div>
 
