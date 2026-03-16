@@ -1,0 +1,77 @@
+{
+  "title": "Oncology",
+  "items": [
+    {
+      "title": "Overview of Cancer",
+      "slug": "overview-of-cancer"
+    },
+    {
+      "title": "Principles of Cancer Therapy",
+      "slug": "principles-of-cancer-therapy"
+    },
+    {
+      "title": "Leukemias",
+      "slug": "leukemias"
+    },
+    {
+      "title": "Lymphomas",
+      "slug": "lymphomas"
+    },
+    {
+      "title": "Tumor Immunology",
+      "slug": "tumor-immunology"
+    },
+    {
+      "title": "Genitourinary Cancers",
+      "slug": "genitourinary-cancers"
+    },
+    {
+      "title": "Breast Cancer",
+      "slug": "breast-cancer"
+    },
+    {
+      "title": "Gynecologic Tumors",
+      "slug": "gynecologic-tumors"
+    },
+    {
+      "title": "Tumors of the Lungs",
+      "slug": "tumors-of-the-lungs"
+    },
+    {
+      "title": "Cancers of the Skin",
+      "slug": "cancers-of-the-skin"
+    },
+    {
+      "title": "Tumors of the Head and Neck",
+      "slug": "tumors-of-the-head-and-neck"
+    },
+    {
+      "title": "Tumors of Bones and Joints",
+      "slug": "tumors-of-bones-and-joints"
+    },
+    {
+      "title": "Tumors of the Gastrointestinal Tract",
+      "slug": "tumors-of-the-gastrointestinal-tract"
+    },
+    {
+      "title": "Gastrointestinal and Pancreatic Neuroendocrine Tumors (NETs)",
+      "slug": "gastrointestinal-and-pancreatic-neuroendocrine-tumors-nets"
+    },
+    {
+      "title": "Multiple Endocrine Neoplasia (MEN) Syndromes",
+      "slug": "multiple-endocrine-neoplasia-men-syndromes"
+    },
+    {
+      "title": "Liver Cancers",
+      "slug": "liver-cancers"
+    },
+    {
+      "title": "Intracranial and Spinal Tumors",
+      "slug": "intracranial-and-spinal-tumors"
+    },
+    {
+      "title": "Pediatric Cancers",
+      "slug": "pediatric-cancers"
+    }
+  ]
+}

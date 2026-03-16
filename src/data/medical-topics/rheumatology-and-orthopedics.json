@@ -1,0 +1,77 @@
+{
+  "title": "Rheumatology and Orthopedics",
+  "items": [
+    {
+      "title": "Approach to the Patient With Joint Symptoms",
+      "slug": "approach-to-the-patient-with-joint-symptoms"
+    },
+    {
+      "title": "Systemic Rheumatic Diseases",
+      "slug": "systemic-rheumatic-diseases"
+    },
+    {
+      "title": "Bursa, Muscle, and Tendon Disorders",
+      "slug": "bursa-muscle-and-tendon-disorders"
+    },
+    {
+      "title": "Coccyx Disorders",
+      "slug": "coccyx-disorders"
+    },
+    {
+      "title": "Crystal-Induced Arthritides",
+      "slug": "crystal-induced-arthritides"
+    },
+    {
+      "title": "Foot and Ankle Disorders",
+      "slug": "foot-and-ankle-disorders"
+    },
+    {
+      "title": "Hand Disorders",
+      "slug": "hand-disorders"
+    },
+    {
+      "title": "How To Do Arthrocentesis",
+      "slug": "how-to-do-arthrocentesis"
+    },
+    {
+      "title": "How To Do Bursal Aspiration and Injection",
+      "slug": "how-to-do-bursal-aspiration-and-injection"
+    },
+    {
+      "title": "IgG4-Related Disease",
+      "slug": "igg4-related-disease"
+    },
+    {
+      "title": "Infections of Joints and Bones",
+      "slug": "infections-of-joints-and-bones"
+    },
+    {
+      "title": "Joint Disorders",
+      "slug": "joint-disorders"
+    },
+    {
+      "title": "Neck and Back Pain",
+      "slug": "neck-and-back-pain"
+    },
+    {
+      "title": "Osteonecrosis",
+      "slug": "osteonecrosis"
+    },
+    {
+      "title": "Osteoporosis",
+      "slug": "osteoporosis"
+    },
+    {
+      "title": "Paget Disease of Bone",
+      "slug": "paget-disease-of-bone"
+    },
+    {
+      "title": "Pain in and Around Joints",
+      "slug": "pain-in-and-around-joints"
+    },
+    {
+      "title": "Vasculitis",
+      "slug": "vasculitis"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "title": "Critical Care Medicine",
+  "items": [
+    {
+      "title": "Approach to the Critically Ill Patient",
+      "slug": "approach-to-the-critically-ill-patient"
+    },
+    {
+      "title": "Cardiac Arrest and Cardiopulmonary Resuscitation (CPR)",
+      "slug": "cardiac-arrest-and-cardiopulmonary-resuscitation-cpr"
+    },
+    {
+      "title": "How To Do Basic Airway Procedures",
+      "slug": "how-to-do-basic-airway-procedures"
+    },
+    {
+      "title": "How To Do Other Airway Procedures",
+      "slug": "how-to-do-other-airway-procedures"
+    },
+    {
+      "title": "How To Do Central Vascular Procedures",
+      "slug": "how-to-do-central-vascular-procedures"
+    },
+    {
+      "title": "How To Do Peripheral Vascular Procedures",
+      "slug": "how-to-do-peripheral-vascular-procedures"
+    },
+    {
+      "title": "How To Do Other Emergency Medicine Procedures",
+      "slug": "how-to-do-other-emergency-medicine-procedures"
+    },
+    {
+      "title": "Respiratory Arrest",
+      "slug": "respiratory-arrest"
+    },
+    {
+      "title": "Respiratory Failure and Mechanical Ventilation",
+      "slug": "respiratory-failure-and-mechanical-ventilation"
+    },
+    {
+      "title": "Sepsis and Septic Shock",
+      "slug": "sepsis-and-septic-shock"
+    },
+    {
+      "title": "Shock and Fluid Resuscitation",
+      "slug": "shock-and-fluid-resuscitation"
+    }
+  ]
+}

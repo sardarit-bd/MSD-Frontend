@@ -1,0 +1,37 @@
+{
+  "title": "Dentistry",
+  "items": [
+    {
+      "title": "Approach to the Dental Patient",
+      "slug": "approach-to-the-dental-patient"
+    },
+    {
+      "title": "Symptoms of Dental and Oral Disorders",
+      "slug": "symptoms-of-dental-and-oral-disorders"
+    },
+    {
+      "title": "Common Dental Disorders",
+      "slug": "common-dental-disorders"
+    },
+    {
+      "title": "Dental Emergencies",
+      "slug": "dental-emergencies"
+    },
+    {
+      "title": "How To Do Dental Procedures",
+      "slug": "how-to-do-dental-procedures"
+    },
+    {
+      "title": "Lip and Tongue Disorders",
+      "slug": "lip-and-tongue-disorders"
+    },
+    {
+      "title": "Periodontal Disorders",
+      "slug": "periodontal-disorders"
+    },
+    {
+      "title": "Temporomandibular Disorders",
+      "slug": "temporomandibular-disorders"
+    }
+  ]
+}

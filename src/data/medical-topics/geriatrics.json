@@ -1,0 +1,45 @@
+{
+  "title": "Geriatrics",
+  "items": [
+    {
+      "title": "Approach to the Geriatric Patient",
+      "slug": "approach-to-the-geriatric-patient"
+    },
+    {
+      "title": "Aging and Quality Of Life",
+      "slug": "aging-and-quality-of-life"
+    },
+    {
+      "title": "Pharmacologic Therapy in Older Adults",
+      "slug": "pharmacologic-therapy-in-older-adults"
+    },
+    {
+      "title": "Elder Abuse",
+      "slug": "elder-abuse"
+    },
+    {
+      "title": "Falls in Older Adults",
+      "slug": "falls-in-older-adults"
+    },
+    {
+      "title": "Gait Disorders in Older Adults",
+      "slug": "gait-disorders-in-older-adults"
+    },
+    {
+      "title": "The Older Driver",
+      "slug": "the-older-driver"
+    },
+    {
+      "title": "Prevention of Disease and Disability in Older Adults",
+      "slug": "prevention-of-disease-and-disability-in-older-adults"
+    },
+    {
+      "title": "Providing Care to Older Adults",
+      "slug": "providing-care-to-older-adults"
+    },
+    {
+      "title": "Social Issues in Older Adults",
+      "slug": "social-issues-in-older-adults"
+    }
+  ]
+}

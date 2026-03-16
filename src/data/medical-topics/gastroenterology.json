@@ -1,0 +1,69 @@
+{
+  "title": "Gastroenterology",
+  "items": [
+    {
+      "title": "Approach to the Gastrointestinal Patient",
+      "slug": "approach-to-the-gastrointestinal-patient"
+    },
+    {
+      "title": "Symptoms of Gastrointestinal Disorders",
+      "slug": "symptoms-of-gastrointestinal-disorders"
+    },
+    {
+      "title": "Diagnostic and Therapeutic Gastrointestinal Procedures",
+      "slug": "diagnostic-and-therapeutic-gastrointestinal-procedures"
+    },
+    {
+      "title": "Acute Abdomen and Surgical Gastroenterology",
+      "slug": "acute-abdomen-and-surgical-gastroenterology"
+    },
+    {
+      "title": "Anorectal Disorders",
+      "slug": "anorectal-disorders"
+    },
+    {
+      "title": "Bezoars and Foreign Bodies",
+      "slug": "bezoars-and-foreign-bodies"
+    },
+    {
+      "title": "Diverticular Disease",
+      "slug": "diverticular-disease"
+    },
+    {
+      "title": "Esophageal and Swallowing Disorders",
+      "slug": "esophageal-and-swallowing-disorders"
+    },
+    {
+      "title": "Gastritis and Peptic Ulcer Disease",
+      "slug": "gastritis-and-peptic-ulcer-disease"
+    },
+    {
+      "title": "Gastroenteritis",
+      "slug": "gastroenteritis"
+    },
+    {
+      "title": "Gastrointestinal Bleeding",
+      "slug": "gastrointestinal-bleeding"
+    },
+    {
+      "title": "How To Do Gastrointestinal Procedures",
+      "slug": "how-to-do-gastrointestinal-procedures"
+    },
+    {
+      "title": "Inflammatory Bowel Disease (IBD)",
+      "slug": "inflammatory-bowel-disease-ibd"
+    },
+    {
+      "title": "Irritable Bowel Syndrome (IBS)",
+      "slug": "irritable-bowel-syndrome-ibs"
+    },
+    {
+      "title": "Malabsorption Syndromes",
+      "slug": "malabsorption-syndromes"
+    },
+    {
+      "title": "Pancreatitis",
+      "slug": "pancreatitis"
+    }
+  ]
+}

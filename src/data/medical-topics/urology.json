@@ -1,0 +1,41 @@
+{
+  "title": "Urology",
+  "items": [
+    {
+      "title": "Approach to the Patient With Urologic Issues",
+      "slug": "approach-to-the-patient-with-urologic-issues"
+    },
+    {
+      "title": "Symptoms of Genitourinary Disorders",
+      "slug": "symptoms-of-genitourinary-disorders"
+    },
+    {
+      "title": "Benign Prostate Disease",
+      "slug": "benign-prostate-disease"
+    },
+    {
+      "title": "How To Do Genitourinary Procedures",
+      "slug": "how-to-do-genitourinary-procedures"
+    },
+    {
+      "title": "Male Sexual Function and Dysfunction",
+      "slug": "male-sexual-function-and-dysfunction"
+    },
+    {
+      "title": "Obstructive Uropathy",
+      "slug": "obstructive-uropathy"
+    },
+    {
+      "title": "Penile and Scrotal Disorders",
+      "slug": "penile-and-scrotal-disorders"
+    },
+    {
+      "title": "Urinary Calculi",
+      "slug": "urinary-calculi"
+    },
+    {
+      "title": "Voiding Disorders",
+      "slug": "voiding-disorders"
+    }
+  ]
+}

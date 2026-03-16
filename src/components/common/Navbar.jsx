@@ -237,6 +237,7 @@ export default function Navbar() {
                         />
 
                         <div
+                          onClick={closeMegaMenu}
                           ref={megaMenuDropdownRef}
                           className="fixed left-1/2 transform -translate-x-1/2 top-[140px] w-full max-w-7xl bg-white shadow-xl z-50 rounded-lg"
                         >

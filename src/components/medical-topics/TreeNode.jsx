@@ -71,7 +71,7 @@ const TreeNode = memo(function TreeNode({
           ${item.slug ? 'group' : ''}
           ${isHovered ? 'shadow-sm' : ''}
         `}
-        onClick={handleToggle}
+        // onClick={handleToggle}
         onKeyDown={(e) => {
           if (e.key === 'Enter' || e.key === ' ') {
             e.preventDefault();

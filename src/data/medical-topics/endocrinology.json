@@ -1,0 +1,45 @@
+{
+  "title": "Endocrinology",
+  "items": [
+    {
+      "title": "Principles of Endocrinology",
+      "slug": "principles-of-endocrinology"
+    },
+    {
+      "title": "Obesity and the Metabolic Syndrome",
+      "slug": "obesity-and-the-metabolic-syndrome"
+    },
+    {
+      "title": "Adrenal Disorders",
+      "slug": "adrenal-disorders"
+    },
+    {
+      "title": "Diabetes Mellitus and Hypoglycemia",
+      "slug": "diabetes-mellitus-and-hypoglycemia"
+    },
+    {
+      "title": "Lipid Disorders",
+      "slug": "lipid-disorders"
+    },
+    {
+      "title": "Parathyroid Disorders",
+      "slug": "parathyroid-disorders"
+    },
+    {
+      "title": "Pituitary Disorders",
+      "slug": "pituitary-disorders"
+    },
+    {
+      "title": "Polyglandular Deficiency Syndromes",
+      "slug": "polyglandular-deficiency-syndromes"
+    },
+    {
+      "title": "Thyroid Disorders",
+      "slug": "thyroid-disorders"
+    },
+    {
+      "title": "Male Reproductive Endocrinology and Related Disorders",
+      "slug": "male-reproductive-endocrinology-and-related-disorders"
+    }
+  ]
+}

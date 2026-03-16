@@ -1,0 +1,205 @@
+{
+  "title": "Pediatrics",
+  "items": [
+    {
+      "title": "Symptoms in Infants and Children",
+      "slug": "symptoms-in-infants-and-children"
+    },
+    {
+      "title": "Health Supervision of the Well Child",
+      "slug": "health-supervision-of-the-well-child"
+    },
+    {
+      "title": "Childhood Vaccination",
+      "slug": "childhood-vaccination"
+    },
+    {
+      "title": "Behavioral Problems in Children",
+      "slug": "behavioral-problems-in-children"
+    },
+    {
+      "title": "Bone Disorders in Children",
+      "slug": "bone-disorders-in-children"
+    },
+    {
+      "title": "Care of Newborns and Infants",
+      "slug": "care-of-newborns-and-infants"
+    },
+    {
+      "title": "Caring for Sick Children and Their Families",
+      "slug": "caring-for-sick-children-and-their-families"
+    },
+    {
+      "title": "Child Maltreatment",
+      "slug": "child-maltreatment"
+    },
+    {
+      "title": "Chromosome and Gene Abnormalities",
+      "slug": "chromosome-and-gene-abnormalities"
+    },
+    {
+      "title": "Common Viral Infections in Infants and Children",
+      "slug": "common-viral-infections-in-infants-and-children"
+    },
+    {
+      "title": "Congenital Cardiovascular Anomalies",
+      "slug": "congenital-cardiovascular-anomalies"
+    },
+    {
+      "title": "Congenital Craniofacial Anomalies",
+      "slug": "congenital-craniofacial-anomalies"
+    },
+    {
+      "title": "Congenital Musculoskeletal Anomalies",
+      "slug": "congenital-musculoskeletal-anomalies"
+    },
+    {
+      "title": "Congenital Gastrointestinal Anomalies",
+      "slug": "congenital-gastrointestinal-anomalies"
+    },
+    {
+      "title": "Congenital Neurologic Anomalies",
+      "slug": "congenital-neurologic-anomalies"
+    },
+    {
+      "title": "Congenital Renal and Genitourinary Anomalies",
+      "slug": "congenital-renal-and-genitourinary-anomalies"
+    },
+    {
+      "title": "Congenital Renal Transport Abnormalities",
+      "slug": "congenital-renal-transport-abnormalities"
+    },
+    {
+      "title": "Connective Tissue Disorders in Children",
+      "slug": "connective-tissue-disorders-in-children"
+    },
+    {
+      "title": "Cystic Fibrosis (CF)",
+      "slug": "cystic-fibrosis-cf"
+    },
+    {
+      "title": "Dehydration and Fluid Therapy in Children",
+      "slug": "dehydration-and-fluid-therapy-in-children"
+    },
+    {
+      "title": "Miscellaneous Ear, Nose, and Throat Disorders in Children",
+      "slug": "miscellaneous-ear-nose-and-throat-disorders-in-children"
+    },
+    {
+      "title": "Endocrine Disorders in Children",
+      "slug": "endocrine-disorders-in-children"
+    },
+    {
+      "title": "Diabetes Mellitus in Children and Adolescents",
+      "slug": "diabetes-mellitus-in-children-and-adolescents"
+    },
+    {
+      "title": "Eye Defects and Conditions in Children",
+      "slug": "eye-defects-and-conditions-in-children"
+    },
+    {
+      "title": "Gastrointestinal Disorders in Neonates and Infants",
+      "slug": "gastrointestinal-disorders-in-neonates-and-infants"
+    },
+    {
+      "title": "Growth and Development",
+      "slug": "growth-and-development"
+    },
+    {
+      "title": "Hereditary Periodic Fever Syndromes",
+      "slug": "hereditary-periodic-fever-syndromes"
+    },
+    {
+      "title": "How To Do Pediatric Urologic Procedures",
+      "slug": "how-to-do-pediatric-urologic-procedures"
+    },
+    {
+      "title": "Human Immunodeficiency Virus (HIV) Infection in Infants and Children",
+      "slug": "human-immunodeficiency-virus-hiv-infection-in-infants-and-children"
+    },
+    {
+      "title": "Hypertension in Children",
+      "slug": "hypertension-in-children"
+    },
+    {
+      "title": "Infections in Neonates",
+      "slug": "infections-in-neonates"
+    },
+    {
+      "title": "Inherited Disorders of Metabolism",
+      "slug": "inherited-disorders-of-metabolism"
+    },
+    {
+      "title": "Inherited Muscular Disorders",
+      "slug": "inherited-muscular-disorders"
+    },
+    {
+      "title": "Rheumatologic Disorders in Children",
+      "slug": "rheumatologic-disorders-in-children"
+    },
+    {
+      "title": "Learning and Developmental Disorders",
+      "slug": "learning-and-developmental-disorders"
+    },
+    {
+      "title": "Psychiatric Disorders in Children and Adolescents",
+      "slug": "psychiatric-disorders-in-children-and-adolescents"
+    },
+    {
+      "title": "Metabolic, Electrolyte, and Toxic Disorders in Neonates",
+      "slug": "metabolic-electrolyte-and-toxic-disorders-in-neonates"
+    },
+    {
+      "title": "Miscellaneous Bacterial Infections in Infants and Children",
+      "slug": "miscellaneous-bacterial-infections-in-infants-and-children"
+    },
+    {
+      "title": "Neurocutaneous Syndromes",
+      "slug": "neurocutaneous-syndromes"
+    },
+    {
+      "title": "Neurologic Disorders in Children",
+      "slug": "neurologic-disorders-in-children"
+    },
+    {
+      "title": "Perinatal Hematologic Disorders",
+      "slug": "perinatal-hematologic-disorders"
+    },
+    {
+      "title": "Perinatal Physiology",
+      "slug": "perinatal-physiology"
+    },
+    {
+      "title": "Perinatal Problems",
+      "slug": "perinatal-problems"
+    },
+    {
+      "title": "Principles of Drug Treatment in Children",
+      "slug": "principles-of-drug-treatment-in-children"
+    },
+    {
+      "title": "Health Care Issues in Adolescents",
+      "slug": "health-care-issues-in-adolescents"
+    },
+    {
+      "title": "Respiratory Disorders in Young Children",
+      "slug": "respiratory-disorders-in-young-children"
+    },
+    {
+      "title": "Respiratory Problems in Neonates",
+      "slug": "respiratory-problems-in-neonates"
+    },
+    {
+      "title": "Sudden Unexpected Infant Death and Brief, Resolved, Unexplained Events",
+      "slug": "sudden-unexpected-infant-death-and-brief-resolved-unexplained-events"
+    },
+    {
+      "title": "Stool Incontinence in Children",
+      "slug": "stool-incontinence-in-children"
+    },
+    {
+      "title": "Urinary Incontinence in Children",
+      "slug": "urinary-incontinence-in-children"
+    }
+  ]
+}

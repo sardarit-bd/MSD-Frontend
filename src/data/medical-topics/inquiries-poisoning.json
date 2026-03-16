@@ -1,0 +1,137 @@
+{
+  "title": "Injuries and Poisoning",
+  "items": [
+    {
+      "title": "Approach to the Trauma Patient",
+      "slug": "approach-to-the-trauma-patient"
+    },
+    {
+      "title": "Abdominal Trauma",
+      "slug": "abdominal-trauma"
+    },
+    {
+      "title": "Altitude Illness",
+      "slug": "altitude-illness"
+    },
+    {
+      "title": "Bites and Stings",
+      "slug": "bites-and-stings"
+    },
+    {
+      "title": "Burns",
+      "slug": "burns"
+    },
+    {
+      "title": "Cold Injury",
+      "slug": "cold-injury"
+    },
+    {
+      "title": "Dislocations",
+      "slug": "dislocations"
+    },
+    {
+      "title": "Drowning",
+      "slug": "drowning"
+    },
+    {
+      "title": "Electrical and Lightning Injuries",
+      "slug": "electrical-and-lightning-injuries"
+    },
+    {
+      "title": "Eye Trauma",
+      "slug": "eye-trauma"
+    },
+    {
+      "title": "Facial Trauma",
+      "slug": "facial-trauma"
+    },
+    {
+      "title": "Fractures",
+      "slug": "fractures"
+    },
+    {
+      "title": "Genitourinary Tract Trauma",
+      "slug": "genitourinary-tract-trauma"
+    },
+    {
+      "title": "Heat Illness",
+      "slug": "heat-illness"
+    },
+    {
+      "title": "How To Care for Wounds and Lacerations",
+      "slug": "how-to-care-for-wounds-and-lacerations"
+    },
+    {
+      "title": "How To Do Anesthesia Procedures",
+      "slug": "how-to-do-anesthesia-procedures"
+    },
+    {
+      "title": "How To Do Casting Procedures",
+      "slug": "how-to-do-casting-procedures"
+    },
+    {
+      "title": "How To Do Other Orthopedic Procedures",
+      "slug": "how-to-do-other-orthopedic-procedures"
+    },
+    {
+      "title": "How To Reduce Dislocations and Subluxations",
+      "slug": "how-to-reduce-dislocations-and-subluxations"
+    },
+    {
+      "title": "How To Do Skin, Soft Tissue, and Minor Surgical Procedures",
+      "slug": "how-to-do-skin-soft-tissue-and-minor-surgical-procedures"
+    },
+    {
+      "title": "How To Splint or Immobilize a Lower Limb",
+      "slug": "how-to-splint-or-immobilize-a-lower-limb"
+    },
+    {
+      "title": "How To Splint or Immobilize an Upper Limb",
+      "slug": "how-to-splint-or-immobilize-an-upper-limb"
+    },
+    {
+      "title": "Injury During Diving or Work in Compressed Air",
+      "slug": "injury-during-diving-or-work-in-compressed-air"
+    },
+    {
+      "title": "Lacerations and Abrasions",
+      "slug": "lacerations-and-abrasions"
+    },
+    {
+      "title": "Mass-Casualty Weapons",
+      "slug": "mass-casualty-weapons"
+    },
+    {
+      "title": "Motion Sickness",
+      "slug": "motion-sickness"
+    },
+    {
+      "title": "Poisoning",
+      "slug": "poisoning"
+    },
+    {
+      "title": "Radiation Exposure and Contamination",
+      "slug": "radiation-exposure-and-contamination"
+    },
+    {
+      "title": "Spinal Trauma",
+      "slug": "spinal-trauma"
+    },
+    {
+      "title": "Sports Injury",
+      "slug": "sports-injury"
+    },
+    {
+      "title": "Sprains and Other Soft-Tissue Injuries",
+      "slug": "sprains-and-other-soft-tissue-injuries"
+    },
+    {
+      "title": "Thoracic Trauma",
+      "slug": "thoracic-trauma"
+    },
+    {
+      "title": "Traumatic Brain Injury (TBI)",
+      "slug": "traumatic-brain-injury-tbi"
+    }
+  ]
+}

@@ -27,7 +27,12 @@ body {
 
 
 
-
+::selection {
+  background: #fde047;
+}
+.reader-highlight {
+  background: #fde047;
+}
 @layer base {
   /* Smooth scrolling */
   html {
