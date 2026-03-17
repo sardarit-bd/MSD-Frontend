@@ -53,7 +53,7 @@ const OverviewOfTheImmuneSystem = {
       <p class="text-sm text-gray-800 leading-relaxed mb-3">B cells and T cells reach maturity within the primary lymphoid tissues. B cells mature in the bone marrow, and T cells mature in the thymus. Mature B cells and T cells subsequently work together to destroy invaders. Tissue-based <a href ="" class="text-red-700 underline hover:text-red-900">antigen-presenting cells</a> are needed to present antigens to most types of T cell.</p>`
     }, {
         type: "image_card",
-        content: { title: "Cellular Components of the Immune System", content: "", image: "", video: "", links: [] }
+        content: { title: "Cellular Components of the Immune System", content: "", image: "https://res.cloudinary.com/dg83pvgls/image/upload/v1773720478/final-immune-system-social-sized_x8a5on.jpg", video: "", links: [], footer: "Copyright © 2025 Merck & Co., Inc., Rahway, NJ, USA and its affiliates. All rights reserved." }
     }],
 
     sections: [

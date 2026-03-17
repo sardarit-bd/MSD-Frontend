@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 // We use a script tag injection approach — zero npm deps
 
 function QRModal({ title, url, onClose }) {
+  console.log(ur)
   const canvasRef = useRef(null);
   const [qrLoaded, setQrLoaded] = useState(false);
 

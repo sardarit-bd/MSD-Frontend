@@ -12,6 +12,7 @@ import usePageReader from "@/hooks/usePageReader";
 import QRButton from "./components/QRButton";
 import { useParams, useSearchParams } from "next/navigation";
 import { slugToPascalCase } from "./SideBar";
+import { useFullUrl } from "@/hooks/useFullUrl";
 
 const MultimediaIcon = () => (
     <svg className="w-4 h-4 inline mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -36,6 +37,8 @@ export function toPascalCaseAlpha(str) {
 
 export default function ArticleContent() {
     const containerRef = useRef(null);
+    const fullUrl = useFullUrl()
+
     const reader = usePageReader(containerRef);
     const [showReaderControls, setShowReaderControls] = useState(false);
     const { chapter } = useParams()
@@ -78,7 +81,7 @@ export default function ArticleContent() {
                 <button onClick={handlePlay} className="hover:text-teal-700">
                     <Volume2 />
                 </button>
-                <QRButton title={article?.title} url={`/${article?.title?.toLowerCase().repeat(" ", '-')}`} />
+                <QRButton title={article?.title} url={fullUrl} />
             </div>
 
             {/* Authors */}
