@@ -1,0 +1,85 @@
+{
+  "title": "Cardiology",
+  "items": [
+    {
+      "title": "Approach to the Cardiac Patient",
+      "slug": "approach-to-the-cardiac-patient"
+    },
+    {
+      "title": "Symptoms of Cardiovascular Disorders",
+      "slug": "symptoms-of-cardiovascular-disorders"
+    },
+    {
+      "title": "Cardiovascular Tests and Procedures",
+      "slug": "cardiovascular-tests-and-procedures"
+    },
+    {
+      "title": "Overview of Arrhythmias and Conduction Disorders",
+      "slug": "overview-of-arrhythmias-and-conduction-disorders"
+    },
+    {
+      "title": "Specific Cardiac Arrhythmias",
+      "slug": "specific-cardiac-arrhythmias"
+    },
+    {
+      "title": "Arrhythmogenic Cardiac Disorders",
+      "slug": "arrhythmogenic-cardiac-disorders"
+    },
+    {
+      "title": "Arteriosclerosis",
+      "slug": "arteriosclerosis"
+    },
+    {
+      "title": "Cardiomyopathies",
+      "slug": "cardiomyopathies"
+    },
+    {
+      "title": "Coronary Artery Disease",
+      "slug": "coronary-artery-disease"
+    },
+    {
+      "title": "Diseases of the Aorta and Its Branches",
+      "slug": "diseases-of-the-aorta-and-its-branches"
+    },
+    {
+      "title": "Endocarditis",
+      "slug": "endocarditis"
+    },
+    {
+      "title": "Heart Failure",
+      "slug": "heart-failure"
+    },
+    {
+      "title": "Hypertension",
+      "slug": "hypertension"
+    },
+    {
+      "title": "Lymphatic Disorders",
+      "slug": "lymphatic-disorders"
+    },
+    {
+      "title": "Myocarditis and Pericarditis",
+      "slug": "myocarditis-and-pericarditis"
+    },
+    {
+      "title": "Peripheral Artery Disorders",
+      "slug": "peripheral-artery-disorders"
+    },
+    {
+      "title": "Peripheral Venous Disorders",
+      "slug": "peripheral-venous-disorders"
+    },
+    {
+      "title": "Sports and the Heart",
+      "slug": "sports-and-the-heart"
+    },
+    {
+      "title": "Valvular Disorders",
+      "slug": "valvular-disorders"
+    },
+    {
+      "title": "Cardiac Tumors",
+      "slug": "cardiac-tumors"
+    }
+  ]
+}

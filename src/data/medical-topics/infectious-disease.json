@@ -1,0 +1,125 @@
+{
+  "title": "Infectious Disease",
+  "items": [
+    {
+      "title": "Biology of Infectious Disease",
+      "slug": "biology-of-infectious-disease"
+    },
+    {
+      "title": "Laboratory Diagnosis of Infectious Disease",
+      "slug": "laboratory-diagnosis-of-infectious-disease"
+    },
+    {
+      "title": "Immunization",
+      "slug": "immunization"
+    },
+    {
+      "title": "Anaerobic Bacteria",
+      "slug": "anaerobic-bacteria"
+    },
+    {
+      "title": "Approach to Parasitic Infections",
+      "slug": "approach-to-parasitic-infections"
+    },
+    {
+      "title": "Arboviruses, Arenaviridae, and Filoviridae",
+      "slug": "arboviruses-arenaviridae-and-filoviridae"
+    },
+    {
+      "title": "Bacteria and Antibacterial Medications",
+      "slug": "bacteria-and-antibacterial-medications"
+    },
+    {
+      "title": "Cestodes (Tapeworms)",
+      "slug": "cestodes-tapeworms"
+    },
+    {
+      "title": "Chlamydiae and Mycoplasmas",
+      "slug": "chlamydiae-and-mycoplasmas"
+    },
+    {
+      "title": "COVID-19",
+      "slug": "covid-19"
+    },
+    {
+      "title": "Enteroviruses",
+      "slug": "enteroviruses"
+    },
+    {
+      "title": "Extraintestinal Protozoa",
+      "slug": "extraintestinal-protozoa"
+    },
+    {
+      "title": "Fungal Infections",
+      "slug": "fungal-infections"
+    },
+    {
+      "title": "Gram-Negative Bacilli",
+      "slug": "gram-negative-bacilli"
+    },
+    {
+      "title": "Gram-Negative Cocci and Coccobacilli",
+      "slug": "gram-negative-cocci-and-coccobacilli"
+    },
+    {
+      "title": "Gram-Positive Cocci",
+      "slug": "gram-positive-cocci"
+    },
+    {
+      "title": "Gram-Positive Bacilli",
+      "slug": "gram-positive-bacilli"
+    },
+    {
+      "title": "Herpesviruses",
+      "slug": "herpesviruses"
+    },
+    {
+      "title": "Human Immunodeficiency Virus (HIV)",
+      "slug": "human-immunodeficiency-virus-hiv"
+    },
+    {
+      "title": "Intestinal Protozoa and Microsporidia",
+      "slug": "intestinal-protozoa-and-microsporidia"
+    },
+    {
+      "title": "Mycobacteria",
+      "slug": "mycobacteria"
+    },
+    {
+      "title": "Nematodes (Roundworms)",
+      "slug": "nematodes-roundworms"
+    },
+    {
+      "title": "Pox Viruses",
+      "slug": "pox-viruses"
+    },
+    {
+      "title": "Respiratory Viruses",
+      "slug": "respiratory-viruses"
+    },
+    {
+      "title": "Rickettsiae and Related Organisms",
+      "slug": "rickettsiae-and-related-organisms"
+    },
+    {
+      "title": "Sexually Transmitted Infections (STIs)",
+      "slug": "sexually-transmitted-infections-stis"
+    },
+    {
+      "title": "Spirochetes",
+      "slug": "spirochetes"
+    },
+    {
+      "title": "Trematodes (Flukes)",
+      "slug": "trematodes-flukes"
+    },
+    {
+      "title": "Urinary Tract Infections (UTIs)",
+      "slug": "urinary-tract-infections-utis"
+    },
+    {
+      "title": "Viruses",
+      "slug": "viruses"
+    }
+  ]
+}

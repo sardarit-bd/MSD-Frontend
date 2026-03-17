@@ -21,6 +21,7 @@ export default async function SectionPage({ params }) {
   // Await params if it's a promise (Next.js 15+)
   const resolvedParams = await params;
   const { slug } = resolvedParams;
+  console.log(slug)
   
   // Validate slug exists
   if (!slug) {

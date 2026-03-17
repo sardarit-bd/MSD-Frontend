@@ -8,7 +8,7 @@ export default function ClientLayout({ children }) {
   const pathname = usePathname();
   
   // Check if current path is admin dashboard
-  const isAdminDashboard = pathname?.startsWith('/dashboard/admin');
+  const isAdminDashboard = pathname?.startsWith('/dashboard');
   
   return (
     <>

@@ -1,0 +1,53 @@
+{
+  "title": "Otolaryngology",
+  "items": [
+    {
+      "title": "Approach to the Patient With Ear Problems",
+      "slug": "approach-to-the-patient-with-ear-problems"
+    },
+    {
+      "title": "Approach to the Patient With Nasal and Pharyngeal Symptoms",
+      "slug": "approach-to-the-patient-with-nasal-and-pharyngeal-symptoms"
+    },
+    {
+      "title": "External Ear Disorders",
+      "slug": "external-ear-disorders"
+    },
+    {
+      "title": "Hearing Loss",
+      "slug": "hearing-loss"
+    },
+    {
+      "title": "How To Do Ear Procedures",
+      "slug": "how-to-do-ear-procedures"
+    },
+    {
+      "title": "How To Do Nose Procedures",
+      "slug": "how-to-do-nose-procedures"
+    },
+    {
+      "title": "How To Do Throat Procedures",
+      "slug": "how-to-do-throat-procedures"
+    },
+    {
+      "title": "Inner Ear Disorders",
+      "slug": "inner-ear-disorders"
+    },
+    {
+      "title": "Laryngeal Disorders",
+      "slug": "laryngeal-disorders"
+    },
+    {
+      "title": "Middle Ear and Tympanic Membrane Disorders",
+      "slug": "middle-ear-and-tympanic-membrane-disorders"
+    },
+    {
+      "title": "Nose and Paranasal Sinus Disorders",
+      "slug": "nose-and-paranasal-sinus-disorders"
+    },
+    {
+      "title": "Oral and Pharyngeal Disorders",
+      "slug": "oral-and-pharyngeal-disorders"
+    }
+  ]
+}

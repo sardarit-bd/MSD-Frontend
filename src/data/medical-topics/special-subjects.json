@@ -1,0 +1,81 @@
+{
+  "title": "Special Subjects",
+  "items": [
+    {
+      "title": "Care of the Surgical Patient",
+      "slug": "care-of-the-surgical-patient"
+    },
+    {
+      "title": "Chronic Fatigue Syndrome",
+      "slug": "chronic-fatigue-syndrome"
+    },
+    {
+      "title": "Clinical Decision Making",
+      "slug": "clinical-decision-making"
+    },
+    {
+      "title": "Dietary Supplements",
+      "slug": "dietary-supplements"
+    },
+    {
+      "title": "Domestic Violence and Sexual Assault",
+      "slug": "domestic-violence-and-sexual-assault"
+    },
+    {
+      "title": "The Dying Patient",
+      "slug": "the-dying-patient"
+    },
+    {
+      "title": "Exercise",
+      "slug": "exercise"
+    },
+    {
+      "title": "General Principles of Medical Genetics",
+      "slug": "general-principles-of-medical-genetics"
+    },
+    {
+      "title": "Idiopathic Environmental Intolerance",
+      "slug": "idiopathic-environmental-intolerance"
+    },
+    {
+      "title": "Integrative, Complementary, and Alternative Medicine",
+      "slug": "integrative-complementary-and-alternative-medicine"
+    },
+    {
+      "title": "Limb Prosthetics",
+      "slug": "limb-prosthetics"
+    },
+    {
+      "title": "Medical Aspects of Travel",
+      "slug": "medical-aspects-of-travel"
+    },
+    {
+      "title": "Medicolegal Issues",
+      "slug": "medicolegal-issues"
+    },
+    {
+      "title": "Nonspecific Symptoms",
+      "slug": "nonspecific-symptoms"
+    },
+    {
+      "title": "Principles of Radiologic Imaging",
+      "slug": "principles-of-radiologic-imaging"
+    },
+    {
+      "title": "Illicit Drugs and Intoxicants",
+      "slug": "illicit-drugs-and-intoxicants"
+    },
+    {
+      "title": "Rehabilitation",
+      "slug": "rehabilitation"
+    },
+    {
+      "title": "Sexuality",
+      "slug": "sexuality"
+    },
+    {
+      "title": "Tobacco Use",
+      "slug": "tobacco-use"
+    }
+  ]
+}

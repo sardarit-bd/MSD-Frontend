@@ -1,0 +1,81 @@
+{
+  "title": "Dermatology",
+  "items": [
+    {
+      "title": "Approach to the Dermatologic Patient",
+      "slug": "approach-to-the-dermatologic-patient"
+    },
+    {
+      "title": "Principles of Topical Dermatologic Therapy",
+      "slug": "principles-of-topical-dermatologic-therapy"
+    },
+    {
+      "title": "Acne and Related Disorders",
+      "slug": "acne-and-related-disorders"
+    },
+    {
+      "title": "Bacterial Skin Infections",
+      "slug": "bacterial-skin-infections"
+    },
+    {
+      "title": "Benign Skin Tumors, Growths, and Vascular Lesions",
+      "slug": "benign-skin-tumors-growths-and-vascular-lesions"
+    },
+    {
+      "title": "Bullous Diseases",
+      "slug": "bullous-diseases"
+    },
+    {
+      "title": "Cornification Disorders",
+      "slug": "cornification-disorders"
+    },
+    {
+      "title": "Dermatitis",
+      "slug": "dermatitis"
+    },
+    {
+      "title": "Fungal Skin Infections",
+      "slug": "fungal-skin-infections"
+    },
+    {
+      "title": "Hair Disorders",
+      "slug": "hair-disorders"
+    },
+    {
+      "title": "Hypersensitivity and Reactive Skin Disorders",
+      "slug": "hypersensitivity-and-reactive-skin-disorders"
+    },
+    {
+      "title": "Nail Disorders",
+      "slug": "nail-disorders"
+    },
+    {
+      "title": "Parasitic Skin Infections",
+      "slug": "parasitic-skin-infections"
+    },
+    {
+      "title": "Pigmentation Disorders",
+      "slug": "pigmentation-disorders"
+    },
+    {
+      "title": "Pressure Injury",
+      "slug": "pressure-injury"
+    },
+    {
+      "title": "Psoriasis and Other Papulosquamous Disorders",
+      "slug": "psoriasis-and-other-papulosquamous-disorders"
+    },
+    {
+      "title": "Reactions to Sunlight",
+      "slug": "reactions-to-sunlight"
+    },
+    {
+      "title": "Sweating Disorders",
+      "slug": "sweating-disorders"
+    },
+    {
+      "title": "Viral Skin Diseases",
+      "slug": "viral-skin-diseases"
+    }
+  ]
+}

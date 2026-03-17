@@ -1,0 +1,101 @@
+{
+  "title": "Gynecology and Obstetrics",
+  "items": [
+    {
+      "title": "Approach to the Gynecologic Patient",
+      "slug": "approach-to-the-gynecologic-patient"
+    },
+    {
+      "title": "Symptoms of Gynecologic Disorders",
+      "slug": "symptoms-of-gynecologic-disorders"
+    },
+    {
+      "title": "Breast Disorders",
+      "slug": "breast-disorders"
+    },
+    {
+      "title": "Endometriosis",
+      "slug": "endometriosis"
+    },
+    {
+      "title": "Family Planning",
+      "slug": "family-planning"
+    },
+    {
+      "title": "Female Reproductive Endocrinology",
+      "slug": "female-reproductive-endocrinology"
+    },
+    {
+      "title": "Infertility and Recurrent Pregnancy Loss",
+      "slug": "infertility-and-recurrent-pregnancy-loss"
+    },
+    {
+      "title": "Menopause",
+      "slug": "menopause"
+    },
+    {
+      "title": "Abnormal Uterine Bleeding",
+      "slug": "abnormal-uterine-bleeding"
+    },
+    {
+      "title": "Miscellaneous Gynecologic Disorders",
+      "slug": "miscellaneous-gynecologic-disorders"
+    },
+    {
+      "title": "Pelvic Organ Prolapse (POP)",
+      "slug": "pelvic-organ-prolapse-pop"
+    },
+    {
+      "title": "Female Sexual Function and Dysfunction",
+      "slug": "female-sexual-function-and-dysfunction"
+    },
+    {
+      "title": "Uterine Fibroids",
+      "slug": "uterine-fibroids"
+    },
+    {
+      "title": "Vaginitis, Cervicitis, and Pelvic Inflammatory Disease",
+      "slug": "vaginitis-cervicitis-and-pelvic-inflammatory-disease"
+    },
+    {
+      "title": "Prenatal Genetic Counseling and Evaluation",
+      "slug": "prenatal-genetic-counseling-and-evaluation"
+    },
+    {
+      "title": "Approach to the Pregnant Woman and Prenatal Care",
+      "slug": "approach-to-the-pregnant-woman-and-prenatal-care"
+    },
+    {
+      "title": "Symptoms During Pregnancy",
+      "slug": "symptoms-during-pregnancy"
+    },
+    {
+      "title": "Intrapartum Complications",
+      "slug": "intrapartum-complications"
+    },
+    {
+      "title": "Antenatal Complications",
+      "slug": "antenatal-complications"
+    },
+    {
+      "title": "Drug Safety in Pregnancy",
+      "slug": "drug-safety-in-pregnancy"
+    },
+    {
+      "title": "Early Pregnancy Disorders",
+      "slug": "early-pregnancy-disorders"
+    },
+    {
+      "title": "Labor and Delivery",
+      "slug": "labor-and-delivery"
+    },
+    {
+      "title": "Postpartum Care and Associated Disorders",
+      "slug": "postpartum-care-and-associated-disorders"
+    },
+    {
+      "title": "Pregnancy Complicated by Disease",
+      "slug": "pregnancy-complicated-by-disease"
+    }
+  ]
+}

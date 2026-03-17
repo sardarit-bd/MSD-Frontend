@@ -1,5 +1,80 @@
 {
   "allergy-and-immunology": {
     "title": "Allergy and Immunology"
+  },
+  "cardiology": {
+    "title": "Cardiology"
+  },
+  "clinical-pharmacology": {
+    "title": "Clinical Pharmacology"
+  },
+  "critical-care-medicine": {
+    "title": "Critical Care Medicine"
+  },
+  "dentistry": {
+    "title": "Dentistry"
+  },
+  "dermatology": {
+    "title": "Dermatology"
+  },
+  "endocrinology": {
+    "title": "Endocrinology"
+  },
+  "gastroenterology": {
+    "title": "Gastroenterology"
+  },
+  "geriatrics": {
+    "title": "Geriatrics"
+  },
+  "gynecology-and-obstetrics": {
+    "title": "Gynecology and Obstetrics"
+  },
+  "hematology": {
+    "title": "Hematology"
+  },
+  "hepatology": {
+    "title": "Hepatology"
+  },
+  "infectious-disease": {
+    "title": "Infectious Disease"
+  },
+  "inquiries-poisoning": {
+    "title": "Inquiries; Poisoning"
+  },
+  "nephrology": {
+    "title": "Nephrology"
+  },
+  "neurology": {
+    "title": "Neurology"
+  },
+  "nutrition": {
+    "title": "Nutrition"
+  },
+  "oncology": {
+    "title": "Oncology"
+  },
+  "ophthalmology": {
+    "title": "Ophthalmology"
+  },
+  "otolaryngology": {
+    "title": "Otolaryngology"
+  },
+  "pediatrics": {
+    "title": "Pediatrics"
+  },
+  "psychiatry": {
+    "title": "Psychiatry"
+  },
+  "pulmonology": {
+    "title": "Pulmonology"
+  },
+  "rheumatology-and-orthopedics": {
+    "title": "Rheumatology and Orthopedics"
+  },
+  "special-subjects": {
+    "title": "Special Subjects"
+  },
+  "urology": {
+    "title": "Urology"
   }
 }

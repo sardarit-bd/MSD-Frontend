@@ -1,0 +1,21 @@
+{
+  "title": "Clinical Pharmacology",
+  "items": [
+    {
+      "title": "Concepts in Pharmacotherapy",
+      "slug": "concepts-in-pharmacotherapy"
+    },
+    {
+      "title": "Factors Affecting Response to Medications",
+      "slug": "factors-affecting-response-to-medications"
+    },
+    {
+      "title": "Pharmacodynamics",
+      "slug": "pharmacodynamics"
+    },
+    {
+      "title": "Pharmacokinetics",
+      "slug": "pharmacokinetics"
+    }
+  ]
+}

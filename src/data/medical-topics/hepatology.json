@@ -1,0 +1,41 @@
+{
+  "title": "Hepatology",
+  "items": [
+    {
+      "title": "Approach to the Patient With Liver Disease",
+      "slug": "approach-to-the-patient-with-liver-disease"
+    },
+    {
+      "title": "Testing for Hepatic and Biliary Disorders",
+      "slug": "testing-for-hepatic-and-biliary-disorders"
+    },
+    {
+      "title": "Alcohol-Related Liver Disease",
+      "slug": "alcohol-related-liver-disease"
+    },
+    {
+      "title": "Drugs and the Liver",
+      "slug": "drugs-and-the-liver"
+    },
+    {
+      "title": "Fibrosis and Cirrhosis",
+      "slug": "fibrosis-and-cirrhosis"
+    },
+    {
+      "title": "Gallbladder and Bile Duct Disorders",
+      "slug": "gallbladder-and-bile-duct-disorders"
+    },
+    {
+      "title": "Hepatitis",
+      "slug": "hepatitis"
+    },
+    {
+      "title": "Liver Masses and Granulomas",
+      "slug": "liver-masses-and-granulomas"
+    },
+    {
+      "title": "Vascular Disorders of the Liver",
+      "slug": "vascular-disorders-of-the-liver"
+    }
+  ]
+}

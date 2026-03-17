@@ -1,0 +1,57 @@
+{
+  "title": "Psychiatry",
+  "items": [
+    {
+      "title": "Approach to the Patient With Psychiatric Symptoms",
+      "slug": "approach-to-the-patient-with-psychiatric-symptoms"
+    },
+    {
+      "title": "Anxiety and Stressor-Related Disorders",
+      "slug": "anxiety-and-stressor-related-disorders"
+    },
+    {
+      "title": "Dissociative Disorders",
+      "slug": "dissociative-disorders"
+    },
+    {
+      "title": "Feeding and Eating Disorders",
+      "slug": "feeding-and-eating-disorders"
+    },
+    {
+      "title": "Mood Disorders",
+      "slug": "mood-disorders"
+    },
+    {
+      "title": "Obsessive-Compulsive and Related Disorders",
+      "slug": "obsessive-compulsive-and-related-disorders"
+    },
+    {
+      "title": "Paraphilias and Paraphilic Disorders",
+      "slug": "paraphilias-and-paraphilic-disorders"
+    },
+    {
+      "title": "Personality Disorders",
+      "slug": "personality-disorders"
+    },
+    {
+      "title": "Schizophrenia and Related Disorders",
+      "slug": "schizophrenia-and-related-disorders"
+    },
+    {
+      "title": "Gender Incongruence and Gender Dysphoria",
+      "slug": "gender-incongruence-and-gender-dysphoria"
+    },
+    {
+      "title": "Somatic Symptom and Related Disorders",
+      "slug": "somatic-symptom-and-related-disorders"
+    },
+    {
+      "title": "Suicidal Behavior",
+      "slug": "suicidal-behavior"
+    },
+    {
+      "title": "Substance-Related Disorders",
+      "slug": "substance-related-disorders"
+    }
+  ]
+}
