@@ -47,18 +47,32 @@ export const StepBasicInfo = ({ form, setForm }) => {
         </div>
       </div>
 
-      <div>
-        <Label>Chapter Group</Label>
+     <div className="grid grid-cols-2 gap-4">
+       <div>
+        <Label>Topic</Label>
         <Select
-          value={form.chapterGroup || ""}
-          onChange={(e) => setForm({ ...form, chapterGroup: e.target.value })}
+          value={form.topic || ""}
+          onChange={(e) => setForm({ ...form, topic: e.target.value })}
         >
-          <option value="">— Select chapter group —</option>
+          <option value="">— Select Topic —</option>
           {CHAPTER_GROUPS.map((g) => (
             <option key={g} value={g}>{g}</option>
           ))}
         </Select>
       </div>
+       <div>
+        <Label>Sub Topic</Label>
+        <Select
+          value={form.subTopic || ""}
+          onChange={(e) => setForm({ ...form, subTopic: e.target.value })}
+        >
+          <option value="">— Select Sub Topic group —</option>
+          {CHAPTER_GROUPS.map((g) => (
+            <option key={g} value={g}>{g}</option>
+          ))}
+        </Select>
+      </div>
+     </div>
 
       <div>
         <div className="flex items-center justify-between mb-2">
