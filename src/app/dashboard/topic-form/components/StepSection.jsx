@@ -1,4 +1,4 @@
-import { emptyBlock, emptySection } from "../page";
+import { emptyBlock, emptySection } from "../../articles/new/page";
 import { BlockEditor } from "./BlockEditor";
 import { AddBtn } from "./TinyUI/tinyUI";
 
