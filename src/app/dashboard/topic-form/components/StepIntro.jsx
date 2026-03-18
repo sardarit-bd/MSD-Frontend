@@ -1,4 +1,4 @@
-import { emptyIntroBlock } from "../page";
+import { emptyIntroBlock } from "../../articles/new/page";
 
 const { BlockEditor } = require("./BlockEditor");
 const { AddBtn } = require("./TinyUI/tinyUI");
