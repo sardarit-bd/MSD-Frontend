@@ -1,10 +1,10 @@
 "use client";
 
 import { useState} from "react";
-import { StepBasicInfo } from "./components/StepBasicInfo";
-import { StepSections } from "./components/StepSection";
-import { StepReview } from "./components/StepReview";
-import { StepIntro } from "./components/StepIntro";
+import { StepBasicInfo } from "../../topic-form/components/StepBasicInfo";
+import { StepSections } from "../../topic-form/components/StepSection";
+import { StepReview } from "../../topic-form/components/StepReview";
+import { StepIntro } from "../../topic-form/components/StepIntro";
 
 
 
@@ -43,6 +43,8 @@ export const emptySection = (order = 1) => ({
 const initialForm = {
   title: "",
   author: { name: "", designation: "" },
+  topic: "",
+  subTopic: "",
   topics: [""],
   intro: [emptyIntroBlock()],
   sections: [emptySection(1)],
@@ -72,7 +74,8 @@ export default function TopicForm() {
       const payload = {
         title: form.title,
         author: form.author,
-        chapterGroup: form.chapterGroup,
+        topic: form.topic,
+        subTopic: form.subTopic,
         topics: form.topics.filter(Boolean),
         intro: form.intro.map(({ _id, ...rest }) => rest),
         sections: form.sections.map(({ _id, blocks, ...rest }) => ({
@@ -123,21 +126,17 @@ export default function TopicForm() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-red-50/20">
-      {/* Top Bar */}
-      <div className="bg-white border-b border-slate-200 sticky top-0 z-30">
-        <div className="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-7 h-7 bg-red-600 rounded-lg flex items-center justify-center">
-              <span className="text-white text-xs font-black">M</span>
-            </div>
-            <div>
-              <p className="text-xs font-bold tracking-widest uppercase text-slate-400">MSD Manual</p>
-              <p className="text-sm font-semibold text-slate-800 -mt-0.5">New Topic</p>
-            </div>
-          </div>
+    <div className="min-h-screen">
 
-          {/* Step Progress */}
+      {/* Content */}
+      <div className="max-w-5xl mx-auto px-6 py-8">
+        <div className="mb-6">
+          <h1 className="text-2xl font-bold text-slate-900">
+            {STEPS[step].label}
+          </h1>
+          
+          <div className="flex justify-between my-5">
+            {/* Step Progress */}
           <div className="flex items-center gap-1">
             {STEPS.map((s, i) => (
               <button
@@ -157,21 +156,13 @@ export default function TopicForm() {
               </button>
             ))}
           </div>
-        </div>
-      </div>
-
-      {/* Content */}
-      <div className="max-w-5xl mx-auto px-6 py-8">
-        <div className="mb-6">
-          <h1 className="text-2xl font-bold text-slate-900">
-            {STEPS[step].label}
-          </h1>
           <p className="text-sm text-slate-500 mt-1">
             Step {step + 1} of {STEPS.length}
             {form.title && step > 0 && (
               <span className="ml-2 text-slate-400">· {form.title}</span>
             )}
           </p>
+          </div>
         </div>
 
         <div className="bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
