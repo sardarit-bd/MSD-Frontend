@@ -289,25 +289,15 @@ function Topbar({ onMobileMenuOpen }) {
         </label>
 
         {/* New topic */}
-        <a href="/admin/topics/new"
+        <Link href="/dashboard/articles/new"
           className="flex items-center gap-1.5 bg-red-600 hover:bg-red-700 active:scale-95
             text-white text-xs font-semibold px-3 py-2 rounded-lg transition-all shadow-sm
             shadow-red-200">
           <svg viewBox="0 0 20 20" fill="currentColor" className="w-3.5 h-3.5">
             <path d="M10.75 4.75a.75.75 0 00-1.5 0v4.5h-4.5a.75.75 0 000 1.5h4.5v4.5a.75.75 0 001.5 0v-4.5h4.5a.75.75 0 000-1.5h-4.5v-4.5z" />
           </svg>
-          <span className="hidden sm:inline">New Topic</span>
-        </a>
-
-        {/* Bell */}
-        <button type="button"
-          className="relative w-8 h-8 flex items-center justify-center rounded-lg
-            text-slate-500 hover:bg-slate-100 transition-colors">
-          <svg viewBox="0 0 20 20" fill="currentColor" className="w-[18px] h-[18px]">
-            <path fillRule="evenodd" d="M4 8a6 6 0 1112 0c0 1.887.454 3.665 1.257 5.234a.75.75 0 01-.515 1.076 32.91 32.91 0 01-3.256.508 3.5 3.5 0 01-6.972 0 32.903 32.903 0 01-3.256-.508.75.75 0 01-.515-1.076A11.448 11.448 0 004 8zm6 7c-.655 0-1.305-.02-1.95-.057a2 2 0 003.9 0c-.645.038-1.295.057-1.95.057z" clipRule="evenodd" />
-          </svg>
-          <span className="absolute top-1.5 right-1.5 w-1.5 h-1.5 bg-red-500 rounded-full ring-1 ring-white" />
-        </button>
+          <span className="hidden sm:inline">New Article</span>
+        </Link>
       </div>
     </header>
   );
